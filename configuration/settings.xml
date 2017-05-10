@@ -101,7 +101,16 @@
       </pluginRepositories>
     </profile>
   </profiles>
-
+  <proxies>
+    <proxy>
+        <id>myhttpproxy</id>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>proxyna.sys.ds.wolseley.com</host>
+        <port>8060</port>
+        <nonProxyHosts>localhost</nonProxyHosts>
+    </proxy>
+</proxies>
   <activeProfiles>
     <activeProfile>fusesource.repo</activeProfile>
   </activeProfiles>
